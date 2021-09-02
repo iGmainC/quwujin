@@ -254,6 +254,19 @@
 .luxbar-menu-material-amber .luxbar-hamburger span::after {
   background-color: #fff; }
 
+.luxbar-menu-material-yellow,
+.luxbar-menu-material-ambyellower .dropdown ul {
+  background-color: #ffe300;
+  color: #fff; }
+
+.luxbar-menu-material-yellow .active,
+.luxbar-menu-material-yellow .luxbar-item:hover {
+  background-color: #dfc500; }
+.luxbar-menu-material-yellow .luxbar-hamburger span,
+.luxbar-menu-material-yellow .luxbar-hamburger span::before,
+.luxbar-menu-material-yellow .luxbar-hamburger span::after {
+  background-color: #fff; }
+
 .luxbar-menu-material-brown,
 .luxbar-menu-material-brown .dropdown ul {
   background-color: #3e2723;
