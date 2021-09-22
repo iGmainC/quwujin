@@ -119,8 +119,8 @@ nav {
 
           a {
             display: block;
-            padding-left: 1em;
-            padding-right: 1em;
+            padding-left: .75em;
+            padding-right: .75em;
             height: $nav-height;
             line-height: $nav-height;
             @include clean-a-style;
@@ -130,6 +130,9 @@ nav {
           &:hover {
             background-color: $dark-yellow;
             transition: 0.3s;
+            a{
+              text-shadow: 0px 0px $nav-height/10 white;
+            }
           }
         }
       }
