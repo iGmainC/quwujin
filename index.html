@@ -5,31 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/luxbar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <!--    <link rel="stylesheet" href="css/nav.css">-->
     <title>Document</title>
 </head>
 <body>
-    <nav id="luxbar" class="luxbar-fixed">
-        <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
-        <div class="luxbar-menu luxbar-menu-right luxbar-menu-material-yellow">
-            <ul class="luxbar-navigation">
-                <li class="luxbar-header">
-                    <a href="#" class="luxbar-brand">
-                        <!-- <img src="https://talk.quwj.com/images/logo-nav.png"> -->
-                        趣小组
-                    </a>
-                    <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
-                    id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
-                </li>
-                <li class="luxbar-item"><a href="#">Item 1</a></li>
-                <li class="luxbar-item"><a href="#">Item 2</a></li>
-                <li class="luxbar-item"><a href="#">Item 3</a></li>
-                <li class="luxbar-item"><a href="#">Item 4</a></li>
+
+<nav>
+    <div class="center">
+        <div class="logo">
+            <a href="https://talk.quwj.com" class="navbar-brand"><img
+                    src="https://talk.quwj.com/images/logo-nav.png"><span>趣小组</span></a>
+        </div>
+        <input type="checkbox" id="nav-checkbox">
+        <div class="test">
+            <form action="/search" method="get">
+                <input name="keyword" type="text">
+                <button type="submit">🔍</button>
+            </form>
+            <ul>
+                <li><a href="">[ MAKE ]</a></li>
+                <li><a href="">首页</a></li>
+                <li><a href="">节点</a></li>
             </ul>
         </div>
-    </nav>
-    <div id="root">
-        
+        <label for="nav-checkbox"></label>
     </div>
+
+</nav>
+<div id="test">
+    <div></div>
+</div>
 </body>
 </html>
